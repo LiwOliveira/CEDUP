@@ -5,3 +5,7 @@ set idade = 0
 set peso = 0
 set imc = 0
 
+
+teste
+
+teste
