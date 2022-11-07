@@ -1,7 +1,8 @@
 programa {
   funcao inicio() {
 
-    inteiro num, i, soma=0
+    inteiro num, i 
+    real soma=0.0
 
      escreva("Informe suas notas:\n")
      
@@ -20,9 +21,9 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 158; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 4, 12, 3}-{i, 4, 17, 1}-{soma, 4, 20, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
