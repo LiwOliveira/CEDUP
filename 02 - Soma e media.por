@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num [10], soma=0, media=0
+		inteiro num [10], soma=0
 
 		para (inteiro i = 0; i<=9; i++){
 			escreva ("Digite o "+i+"º numero: ")
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 243; 
+ * @POSICAO-CURSOR = 59; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
