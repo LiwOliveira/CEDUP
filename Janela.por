@@ -5,7 +5,7 @@ programa
 	funcao inicio()
 	{
 		g.iniciar_modo_grafico(verdadeiro)
-		g.definir_dimensoes_janela(500, 500)
+		g.definir_dimensoes_janela(1500, 800)
 		g.definir_titulo_janela("Condominios")
 
 		enquanto (verdadeiro){
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 280; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
