@@ -5,15 +5,16 @@ programa
 	{
 		inteiro num [10]
 
-		para (inteiro i = 0; i<=9; i++){
+		para (inteiro i = 0; i<=9; i++)
+		{
 			escreva ("Digite o "+i+"º numero: ")
 			leia(num[i])
 			limpa()
 		}
 
-		para(inteiro i=9; i>=0; i--){
-			escreva("\n"+num[i])
-			
+		para(inteiro i=9; i>=0; i--)
+		{
+			escreva("\n"+num[i])	
 		}
 	}
 }
@@ -22,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 228; 
+ * @POSICAO-CURSOR = 193; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

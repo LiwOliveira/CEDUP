@@ -5,7 +5,8 @@ programa
 	{
 		inteiro num [10], soma=0
 
-		para (inteiro i = 0; i<=9; i++){
+		para (inteiro i = 0; i<=9; i++)
+		{
 			escreva ("Digite o "+i+"º numero: ")
 			leia(num[i])
 			limpa()
@@ -22,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 236; 
+ * @POSICAO-CURSOR = 97; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
