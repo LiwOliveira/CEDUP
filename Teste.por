@@ -9,8 +9,8 @@ programa
 	const inteiro alturaT = 600
 	inteiro horaH = c.hora_atual(falso)
 	inteiro horaM = c.minuto_atual()
-	inteiro som = s.carregar_som("C:\\Users\\eliel.rodrigues\\Downloads\\DEAF KEV - Invincible [NCS Release].mp3")
-	
+	inteiro som = s.carregar_som("C:\\Users\\eliel.rodrigues\\Downloads\\Mysteries.mp3")
+
 	funcao inicio()
 	{
 		desenhaTela()
@@ -52,6 +52,7 @@ programa
 		//g.definir_estilo_texto(falso, verdadeiro, falso)
 		g.definir_tamanho_texto(16.0)
 		g.desenhar_texto(145, 330, "PLAY")
+		s.reproduzir_som(som, verdadeiro)
 		se(mouse(115,315,90, 35) ==  verdadeiro e m.botao_pressionado(m.BOTAO_ESQUERDO))
 		{
 			g.definir_cor(g.COR_PRETO)
@@ -69,6 +70,7 @@ programa
 		//g.definir_estilo_texto(falso, verdadeiro, falso)
 		g.definir_tamanho_texto(16.0)
 		g.desenhar_texto(445, 330, "Stop")
+		s.interromper_som(som)
 		se(mouse(415,315,90, 35) ==  verdadeiro e m.botao_pressionado(m.BOTAO_ESQUERDO))
 		{
 			g.definir_cor(g.COR_PRETO)
@@ -91,7 +93,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 315; 
+ * @POSICAO-CURSOR = 1193; 
+ * @DOBRAMENTO-CODIGO = [13, 25, 32, 38];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
