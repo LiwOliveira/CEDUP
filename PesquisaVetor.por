@@ -3,19 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num [10]
-
-		para (inteiro i = 0; i<=9; i++)
+		cadeia nomes[5]
+		inteiro pesquisa = 0
+		
+		para (inteiro i=0; i<=4; i++)
 		{
-			escreva ("Digite o "+i+"º numero: ")
-			leia(num[i])
-			limpa()
+			escreva("Digite um nome: ")
+			leia(nomes[i])	
 		}
+		escreva("Digite um codigo de 0 a 4: ")
+		leia(pesquisa)
 
-		para(inteiro i=9; i>=0; i--)
-		{
-			escreva("\n"+num[i])	
-		}
+		escreva(nomes[pesquisa])
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,11 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
-<<<<<<< Updated upstream
- * @POSICAO-CURSOR = 193; 
-=======
- * @POSICAO-CURSOR = 162; 
->>>>>>> Stashed changes
+ * @POSICAO-CURSOR = 256; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
