@@ -1,15 +1,17 @@
 programa
 {
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
-		cadeia nomes[9999999]
+		cadeia nomes[99999], cpf[99999]
 		inteiro opcao = 0
-		inteiro quantidadeCadastrada = 0
+		inteiro quantidadeCadastrada = 0, pesquisa = 0
+		caracter nome
 
 		enquanto (opcao != 5) 
 		{
-			escreva("\n------------ Programa do CEDUP ------------")
+			escreva("------------- Programa do CEDUP -------------")
 			escreva("\n---------------- 2022 INFO ----------------")
 			escreva("\n1 - Cadastrar condomino")
 			escreva("\n2 - Listar todos condominos")
@@ -19,13 +21,46 @@ programa
 			escreva("\n---------------------")
 			escreva("\nDigite uma opção: ")
 			leia(opcao)
+			limpa()
 
 			se (opcao == 1)
 			{
+				limpa()
 				escreva("Digite um nome da pessoa " + quantidadeCadastrada +": ")
 				leia(nomes[quantidadeCadastrada])
-
+				
+				escreva("Digite o CPF " + quantidadeCadastrada +": ")
+				leia(cpf[quantidadeCadastrada])
+				escreva("Condominio cadastrado com sucesso!\n\n")
+				u.aguarde(900)
+				
 				quantidadeCadastrada++
+			}
+
+			senao se(opcao == 2)
+			{
+				para (inteiro i=0; i<quantidadeCadastrada; i++)
+				{
+					escreva(nomes[i]+"\n")
+					u.aguarde(900)
+				}
+			}
+
+			senao se(opcao == 3)
+			{
+				escreva("Digite um codigo: ")
+				leia(pesquisa)
+
+				escreva(nomes[pesquisa] + "\n\n")
+				u.aguarde(900)
+			}
+			
+			senao se(opcao == 4)
+			{
+				escreva("Digite um nome: ")
+				leia(nome)
+
+				escreva(nomes[quantidadeCadastrada] + "\n\n")
 			}
 		}
 	}
@@ -35,9 +70,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 230; 
+ * @POSICAO-CURSOR = 971; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {nomes, 6, 9, 5}-{quantidadeCadastrada, 8, 10, 20};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
