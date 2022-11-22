@@ -9,7 +9,7 @@ programa
 	const inteiro alturaT = 600 //Tamnanho constante da altura da tela
 	inteiro horaH = c.hora_atual(falso) //Exibe as horas no normato 24h
 	inteiro horaM = c.minuto_atual() //Exibe os minutos
-	inteiro som = s.carregar_som("C:\\Users\\liwol\\Documentos\\GitHub\\CEDUP\\DEAF KEV - Invincible [NCS Release].mp3") //Carrega um som local para memoria
+	inteiro som = s.carregar_som("C:\\Users\\Eliel\\Documents\\GitHub\\CEDUP\\DEAF KEV - Invincible [NCS Release].mp3") //Carrega um som local para memoria
 
 	//Desenha tela e declara funções criadas posteriormente
 	funcao inicio()
@@ -97,7 +97,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 140; 
+ * @POSICAO-CURSOR = 437; 
  * @DOBRAMENTO-CODIGO = [14, 26, 34, 41, 50, 85];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
