@@ -5,12 +5,13 @@ programa
 	inclua biblioteca Graficos --> g
 	inclua biblioteca Calendario--> c
 	
-	const inteiro larguraT = 800
-	const inteiro alturaT = 600
-	inteiro horaH = c.hora_atual(falso)
-	inteiro horaM = c.minuto_atual()
-	inteiro som = s.carregar_som("C:\\Users\\liwol\\Documentos\\GitHub\\CEDUP\\DEAF KEV - Invincible [NCS Release].mp3")
+	const inteiro larguraT = 800 //Tamanho constante da largura da tela
+	const inteiro alturaT = 600 //Tamnanho constante da altura da tela
+	inteiro horaH = c.hora_atual(falso) //Exibe as horas no normato 24h
+	inteiro horaM = c.minuto_atual() //Exibe os minutos
+	inteiro som = s.carregar_som("C:\\Users\\liwol\\Documentos\\GitHub\\CEDUP\\DEAF KEV - Invincible [NCS Release].mp3") //Carrega um som local para memoria
 
+	//Desenha tela e declara funções criadas posteriormente
 	funcao inicio()
 	{
 		desenhaTela()
@@ -21,6 +22,7 @@ programa
 			botao()
 		}
 	}
+	
 	//Desenha uma tela
 	funcao desenhaTela()
 	{
@@ -28,12 +30,14 @@ programa
 		g.definir_titulo_janela("Condominios")
 		g.definir_dimensoes_janela(larguraT, alturaT)
 	}
+	
 	//Atribui uma cor de fundo
 	funcao corFundo()
 	{
 		g.definir_cor(g.COR_BRANCO)
 		g.limpar()
 	}
+	
 	//Desenha um texto na tela
 	funcao desenharTexto()
 	{
@@ -42,6 +46,7 @@ programa
 		g.desenhar_texto(710, 550, horaH+":"+horaM)
 		g.renderizar()
 	}
+	
 	//Desenha botão e atribui uma função/açâo
 	funcao botao()
 	{
@@ -76,6 +81,7 @@ programa
 		}
 		
 	}
+	
 	//Detectar onde mouse está
 	funcao logico mouse(inteiro x,inteiro y, inteiro a, inteiro b)
 	{
@@ -91,8 +97,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 827; 
- * @DOBRAMENTO-CODIGO = [24, 31, 37, 45, 79];
+ * @POSICAO-CURSOR = 140; 
+ * @DOBRAMENTO-CODIGO = [14, 26, 34, 41, 50, 85];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
