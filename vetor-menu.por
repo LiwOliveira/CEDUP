@@ -60,7 +60,7 @@ programa
 				escreva("Digite um nome: ")
 				leia(nome)
 
-				escreva(nomes[quantidadeCadastrada] + "\n\n")
+				escreva("O codigo de "+nome+"é: "+quantidadeCadastrada + "\n\n")
 			}
 		}
 	}
@@ -70,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 971; 
+ * @POSICAO-CURSOR = 1414; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
