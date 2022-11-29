@@ -88,7 +88,7 @@ pause
 goto menu
 
 :zerar
-set /p n6= "Tem certeza que quer zerar todas as notas?Se tiver certeza digite 6, se n├úo digite outro valor para sair."
+set /p n6= "Tem certeza que quer zerar todas as notas?Se tiver certeza digite 6, se nao digite outro valor para sair."
 if %n6% EQU 6 (
 	set n1=0
 	set n2=0
