@@ -6,14 +6,22 @@
 
 
 programa
-{	
+{
+	inclua biblioteca Util --> y
 	funcao inicio()
 	{
-		inteiro cpf[11]={7,7,7,7,7,7,7,7,7,7,7}
+		inteiro cpf[11]
 		inteiro mult1[]={10,9,8,7,6,5,4,3,2}
 		inteiro mult2[]={11,10,9,8,7,6,5,4,3,2}
 		inteiro soma = 0
 		inteiro resto
+
+
+		para (inteiro i = 0; i< 11; i++){
+			escreva("Informe seu CPF: ")
+			leia(cpf[i])
+		}
+		
 
 		se(cpf[0]==cpf[1] e cpf[1]==cpf[2] e cpf[2]==cpf[3] e cpf[3]==cpf[4]
 		e cpf[4]==cpf[5] e cpf[5]==cpf[6] e cpf[6]==cpf[7]
@@ -22,7 +30,7 @@ programa
 		escreva("CPF inválido!")
 		}
 		
-		 senao{
+		 /*senao{
 		 	para(inteiro i = 0; i < 9; i++){
 				soma+=(cpf[i] * mult1[i])
 			}
@@ -44,7 +52,6 @@ programa
 		
 				se(resto == 10){
 				   resto = 0
-				   
 				}
 				
 				se(resto != cpf[10]){
@@ -55,7 +62,7 @@ programa
 					escreva("CPF válido")
 				}
 			}
-		 }
+		 }*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -63,20 +70,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 137; 
+ * @POSICAO-CURSOR = 641; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {soma, 15, 10, 4}-{resto, 16, 10, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 186; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {cpf, 12, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {cpf, 13, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
